@@ -22,6 +22,7 @@ public class MergeSort {
 		for (int i=0; i<n; ++i)
 			System.out.print(arr[i] + " ");
 	}
+	
 	private static void mergeSort(String[] arr, int x, int m, int y)
 	{
 		int n1 = m - x + 1;
@@ -61,6 +62,7 @@ public class MergeSort {
 			k++;
 		}
 	}
+	
 	public static void main(String[] args)//Main method gives sorted array after mergeSort function  
 	{
 		Scanner sc = new Scanner(System.in);
